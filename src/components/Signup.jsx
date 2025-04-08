@@ -21,7 +21,7 @@ const Signup = () => {
           m={'auto'}
           my={'16'}
         >
-          <Heading>Video Vantage</Heading>
+          <Heading>Flame Swimming Club</Heading>
           <Avatar alignSelf={'center'} boxSize={'32'} />
 
           <Input
