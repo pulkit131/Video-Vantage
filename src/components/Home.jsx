@@ -2,11 +2,11 @@ import { Box, Container, Heading, Image, Stack, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import img1 from '../assets/1.jpg';
-import img2 from '../assets/2.jpg';
-import img3 from '../assets/3.jpg';
-import img4 from '../assets/4.jpg';
-import img5 from '../assets/5.png';
+import img1 from '../assets/swim101.jpg';
+import img2 from '../assets/swim104.jpg';
+import img3 from '../assets/swim103.jpg';
+import img4 from '../assets/swim105.jpg';
+import img5 from '../assets/swim11.png';
 
 const headingOptions = {
   pos: 'absolute',
@@ -40,7 +40,7 @@ const Home = () => {
           alignItems={'center'}
           direction={['column', 'row']}
         >
-          <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
+          <Image src={img5} h={['40', '400']}  />
 
           <Text
             letterSpacing={'widest'}
@@ -48,10 +48,7 @@ const Home = () => {
             p={['4', '16']}
             textAlign={'center'}
           >
-            At VideoVantage, we believe in the power of video to educate, inspire, and empower. Our platform is dedicated to providing high-quality video services that enable you to learn and gain knowledge effectively. Through our extensive library of educational and informative videos, you can explore a wide range of topics, from academic subjects to practical skills and everything in between.
-            Whether you're a student looking to supplement your learning, a professional seeking to expand your expertise, or simply someone with a curious mind eager to discover new insights, VideoVantage has something for you. Our carefully curated content covers various fields, including science, technology, business, arts, lifestyle, and more.
-            With VideoVantage, learning becomes engaging and accessible. You can watch videos at your own pace, pause, rewind, and revisit concepts as needed, ensuring a personalized learning experience tailored to your preferences. Our platform is designed to facilitate continuous learning and growth, providing you with the tools and resources you need to thrive in an ever-changing world.
-            Join VideoVantage today and unlock a world of knowledge through the power of video!
+            The FLAME Swimming Club offers a range of services designed to support swimmers at every level of their journey. From structured training sessions led by our experienced coach, Guru Sir, to personalized guidance focused on technique, endurance, and strength-building, the club ensures each member gets the attention they need to grow. We provide access to state-of-the-art swimming facilities, regular practice schedules, and opportunities to compete in both intra- and inter-collegiate events. Beyond the pool, the club organizes wellness activities, guest lectures, and interactive sessions with professional athletes to broaden learning and motivation. Whether you're aiming to compete or simply stay fit, our services cater to your goals in a fun, inclusive, and motivating environment.
           </Text>
         </Stack>
       </Container>
@@ -71,27 +68,27 @@ const MyCarousel = () => (
     <Box w="full" h={'100vh'}>
       <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'blackAlpha.600'} color={'white'} {...headingOptions}>
-        Watch The Future
+      Swim. Strength. Spirit
       </Heading>
     </Box>
     <Box w="full" h={'100vh'}>
       <Image src={img2} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>
-        Future is Gaming
+      Make Waves. Build Grit
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
       <Image src={img3} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        Gaming on Console
+      Stroke by Stroke
       </Heading>
     </Box>
 
     <Box w="full" h={'100vh'}>
       <Image src={img4} h="full" w={'full'} objectFit={'cover'} />
       <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
-        Night life is cool
+      Dive. Train. Excel
       </Heading>
     </Box>
   </Carousel>

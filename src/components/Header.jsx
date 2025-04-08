@@ -50,7 +50,7 @@ const Header = () => {
                 <Link to={'/'}>Home</Link>
               </Button>
 
-              <Button
+              {/* <Button
                 onClick={onClose}
                 variant={'ghost'}
                 colorScheme={'purple'}
@@ -72,7 +72,7 @@ const Header = () => {
                 colorScheme={'purple'}
               >
                 <Link to={'/upload'}>Upload Video</Link>
-              </Button>
+              </Button> */}
             </VStack>
 
             <HStack

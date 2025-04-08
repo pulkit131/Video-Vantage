@@ -48,7 +48,7 @@ const Footer = () => {
           borderRight={['none', '1px solid white']}
         >
           <Heading textTransform={'uppercase'} textAlign={'center'}>
-            @Video-Vantage
+            @Flame Swimming Club
           </Heading>
           <Text>All rights received</Text>
         </VStack>
@@ -59,12 +59,12 @@ const Footer = () => {
           </Heading>
 
           <Button variant={'link'} colorScheme={'white'}>
-            <a target={'black'} href="https://pulkits-portfolio.vercel.app/">
-              Portfolio
+            <a target={'black'} href="https://www.instagram.com/flameswimmingclub/">
+              Instagram
             </a>
           </Button>
 
-          <Button variant={'link'} colorScheme={'white'}>
+          {/* <Button variant={'link'} colorScheme={'white'}>
             <a target={'black'} href="https://www.linkedin.com/in/pulkitnandwana/">
               Linkedin
             </a>
@@ -74,7 +74,7 @@ const Footer = () => {
             <a target={'black'} href="https://github.com/pulkit131">
               GitHub
             </a>
-          </Button>
+          </Button> */}
         </VStack>
       </Stack>
     </Box>

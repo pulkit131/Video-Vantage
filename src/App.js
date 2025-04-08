@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/videos" element={<Videos />} />
-        <Route path="/upload" element={<Upload />} />
+        {/* <Route path="/videos" element={<Videos />} />
+        <Route path="/upload" element={<Upload />} /> */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
